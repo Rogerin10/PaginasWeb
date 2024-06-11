@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Nicolas</title>
+    <style>
+        header{
+            background-color: rgb(0, 0, 96);
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            display: flexbox;
+        }
+        nav {
+            background-color: rgb(0, 0, 96);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            display: flexbox;
+        }
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .my-custom-carousel {
+             max-width: 938px; 
+            max-height: 470px;
+            margin: 0 auto; 
+        }
+
+        #tr1{width: 800px; height: 500px;}
+        #tr2{width: 800px; height: 500px;}
+        #tr3{width: 800px; height: 500px; }
+
+        .areas-de-negocio{text-align: center; 
+          display:flexbox;}
+
+        .area{
+            width: 200px;
+            height: 140px;
+            background-color: rgb(0, 0, 96);
+            color: white; 
+            margin : 50px;
+            display:inline-block;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            }
+
+        .imagenesdiv{
+          width: 260px ;
+          height: 180px;
+        }
+
+        .textos-span{
+          display: inline-block;
+          font-size: 10px;
+          margin: 20px;
+          
+        
+        }
+
+
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylere.css">
+  </head>
+<body>
+  <div id="Encabezado">
+    <p id="logo">Logo</p>
+    <p id="nombreEmpresa">Nombre de la Empresa</p>
+</div>
+<div id="BarraNavegacion">
+    <a href="#inicio" class="opcion">Inicio</a>
+    <a href="AAA Obra.html" class="opcion">Obra</a>
+    <a href="AAA Sobre Nosotros.html" class="opcion">Acerca de nosotros</a>
+    <a href="AAA Contacto.html" class="opcion">Contacto</a>
+</div>
+    <br>
+     <br>   
+     <br>
+        <div id="carouselExample" class="carousel slide my-custom-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="trabajoTerminado1.jpg" class="d-block w-100" alt="... " id="tr1">
+              </div>
+              <div class="carousel-item">
+                <img src="trabajoTerminado2.jpg" class="d-block w-100" alt="..." id="tr2">
+              </div>
+              <div class="carousel-item">
+                <img src="trabajoTerminado3.jpg" class="d-block w-100" alt="..." id="tr3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+        <div class="areas-de-negocio">
+              <center><h2>Áreas de Negocio</h2>   </center>
+              <br>
+        <div id="areas" style="display: flex;">
+            <div id="Carpinteria">
+             <span class="textos-span" style="display: flexbox;"  >
+              <center><p style="font-weight: bold;">Carpinteria</p> </center>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magn
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitatio 
+              ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit</p> </span> 
+              <img src="CARPINTERIA.jpeg" height="50%" width="70%">
+            </div>
+            <div id="Gasfiteria">
+              <span class="textos-span"  style="display: flexbox;">
+              <center><p style="font-weight: bold;">Gasfiteria</p></center>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              sed do eiusmod tempor incididunt ut labore et dolore ls
+              magna aliqua. Diam volutpat commodo sed egestas eges as
+              tas. Elementum nisi quis eleifend quam adipiscing lfrad
+              vitae proin sagittis nis  sit amet justo donec  egestas</p> </span>
+              <img src="GASFITERIA.jpeg" height="50%" width="70%"> 
+              </div>
+              <div id="Terminaciones">
+              <span class="textos-span" style="display: flexbox;">
+              <center><p style="font-weight: bold;">Terminaciones</p></center>
+              <p>Nunc consequat interdum varius sit amet mattis vulputate
+              posuere urna nec tincidunt. Donec ultrices tinciduntarcu
+              scelerisque mauris pellentesque pulvinar varius vel phar
+              tra vel turpis nunc eget  lorem ipsum dolor sit amet con
+              sagittis nisl rhoncus mattis rhoncus. Venenatis urna cur</p></span>
+              <img src="terminaciones.jpeg" height="50%" width="70%">
+            </div> 
+            <div id="Pintura">  
+              <span class="textos-span" style="display: flexbox;">
+                <center><p style="font-weight: bold;">Pintura</p></center>
+              <p>Eu facilisis sed odio morbi quis commodo odio aenean. Sit  
+              amet consectetur adipiscing elit pellentesque habitant mor 
+              ipsum nunc aliquet bibendum enim. Risus at ultrices mi tem  
+              suspendisse potenti nullam. Nulla at volutpat diam donecad
+              ipiscing tristique Lacus luctus accumsan tortor posuere ac</p> </span>
+              <img src="pintura.jpeg" height="50%" width="70%">
+            </div>
+          </div>
+        </div>
+            <br>
+            <br>
+            
+
+          <div id="Footer">
+              <p id="logofooter1">Logo</p>
+              <p class="textofooter">Numero de Contacto: +56 9 9999 9999</p>
+              <p class="textofooter">Correo de Contacto: <a href="mailto:ejemplo@gmail.com">ejemplo@gmail.com</a></p>
+              <p class="textofooter">Ubicación: XXXX-XXXX</p>
+              <p id="logofooter2">Logo</p>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

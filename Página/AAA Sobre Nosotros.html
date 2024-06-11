@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- link de conexión con bootstrap -->
+    <link rel="stylesheet" href="stylere.css"> <!-- CSS importado que esta en la misma carpeta de este código -->
+</head>
+<body>
+    <div id="Encabezado"> <!-- En este div se crea el encabezado, en CSS se le especifíca que el logo estara a la izquierda y el nombre a la derecha -->
+        <p id="logo">Logo</p>
+        <p id="nombreEmpresa">Nombre de la Empresa</p>
+    </div>
+    <div id="BarraNavegacion"> <!-- Este div es la barra de navegación en la cuál estaran las distintas secciones que se especificaron -->
+        <a href="AAA Inicio.html" class="opcion">Inicio</a>
+        <a href="AAA Obra.html" class="opcion">Obra</a>
+        <a href="#Acerca De Nosotros" class="opcion">Acerca de nosotros</a>
+        <a href="AAA Contacto.html" class="opcion">Contacto</a>
+    </div>
+    <div id="Cuerpo"> <!-- En este div estara todo lo que es el cuerpo de la sección, entrara todo lo que no sea ni encabezado ni footer que este en la página, la parte importante de esta sección -->
+        <p id="historia"> <!-- Aqui se escribira todo lo relacionado con la historia de la empresa -->
+            Historia <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique velit sapien, eget sodales enim iaculis vitae. 
+            Etiam congue, dolor non hendrerit maximus, metus urna pharetra ex, a placerat nisi neque interdum neque. Donec non nisi tempus, eleifend 
+            nisi nec, varius urna. Proin nibh leo, semper eu finibus vel, sodales in turpis. Curabitur ultrices pretium felis, nec maximus nisl vulputate 
+            id. Fusce sagittis magna nec elit scelerisque, eu vulputate quam volutpat. Nunc finibus odio arcu, vestibulum euismod tellus vehicula a. Sed 
+            pharetra euismod libero in aliquet. <br><br>
+            Cras bibendum, mi eget venenatis egestas, mi leo dictum ipsum, vel fringilla mi nisl sed velit. Duis ante mauris, dignissim ut odio eget, semper 
+            iaculis augue. Nulla leo eros, lacinia sit amet odio id, pharetra placerat elit. Sed imperdiet nibh neque, ut pellentesque nunc efficitur sit amet. 
+            Vivamus libero elit, feugiat id rutrum et, blandit vitae sem. Sed nec tortor ac tortor lobortis iaculis. Fusce neque diam, dapibus in fermentum sit 
+            amet, rhoncus vel mi. Aliquam interdum nulla auctor ex consectetur accumsan. Praesent turpis ligula, ullamcorper at porta a, varius vitae erat. 
+            Ut vitae lacinia metus. Integer aliquet leo a nunc euismod rutrum. Maecenas quis neque mattis urna euismod facilisis nec a augue. Proin eu sapien congue, 
+            ullamcorper enim eu, placerat nulla.
+        </p>
+        <div id="imagen"> <!-- Este div se encarga de cargar el carrusel cargado desde bootstrap, simplemente se exporta el código y todo comienza a funcionar. -->
+            <div id="carouselExample" class="carousel slide my-custom-carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="trabajoTerminado1.jpg" class="d-block w-80" alt="... " id="tr1" width="300" height="320">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="trabajoTerminado2.jpg" class="d-block w-80" alt="..." id="tr2" width="300" height="320">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="trabajoTerminado3.jpg" class="d-block w-80" alt="..." id="tr3" width="300" height="320">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <p id="Aquenosdedicamos"> <!-- En este texto se explicara que es lo que hacen o en que parte especifica del sector de la construcción trabajan -->
+            A que nos dedicamos <br><br>Duis nec massa est. Nullam neque dui, tempus vitae sollicitudin at, feugiat quis sapien. Suspendisse id euismod purus, 
+            malesuada suscipit tellus. Ut convallis fermentum sapien nec iaculis. Suspendisse placerat blandit sollicitudin. Ut at metus nec erat eleifend 
+            elementum et a orci. Nam ultrices, orci a posuere tristique, magna mi tincidunt metus, a tincidunt justo odio vel dui.<br><br>
+            Mauris consectetur velit posuere dolor sagittis egestas. Sed odio nibh, tincidunt at ligula at, semper bibendum leo. Cras nec justo in diam finibus fermentum.
+            Curabitur vel semper metus, in malesuada nibh. Praesent porttitor odio id mollis porttitor. Mauris quis lectus commodo, suscipit purus vitae, scelerisque 
+            ipsum. Vestibulum pulvinar sem a quam tempus efficitur. Aenean orci massa, pellentesque sed sodales quis, pellentesque ac felis. Phasellus volutpat velit 
+            orci, quis cursus enim pharetra ac. Proin tempor vel felis et faucibus.
+        </p>
+    </div>
+    <div id="Footer"> <!-- Este es el footer de la página aqui se busca mostrar siempre la marca de la empresa y como contactarlos o llegar a ellos de forma simple y clara-->
+        <p id="logofooter1">Logo</p>
+        <p class="textofooter">Numero de Contacto: +56 9 9999 9999</p>
+        <p class="textofooter">Correo de Contacto: <a href="mailto:ejemplo@gmail.com">ejemplo@gmail.com</a></p>
+        <p class="textofooter">Ubicación: XXXX-XXXX</p>
+        <p id="logofooter2">Logo</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- link de bootstrap -->
+</body>
+</html>
