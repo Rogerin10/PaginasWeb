@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="inicio.css">
+</head>
+
+<body>
+        <!--Encabezado -->
+    <div id="Encabezado">
+        <img src="Logo.png" alt="logo" width="6%" height="%">
+        <p id="nombrePizzeria ">Pizzeria Chillán</p>
+    </div>
+
+                      <!--Barra de Navegacion -->
+    <div id="BarraNavegacion">
+        <a href="inicio.html" class="opcion">Inicio</a> <!-- links referenciales a cada sección -->
+        <a href="Menu.html" class="opcion">Menú</a>
+    </div>
+
+                                    <!-- Cuerpo de la página -->
+    <h2 class="section-title">Sobre Nosotros</h2>
+
+    <section id="sobre-nosotros" class="about-us">
+        <div class="about-content">
+            <div class="mission">
+                <center>
+                    <h3>Nuestra Misión</h3>
+                </center>
+                <p>En Pizzeria Chillán, nuestra misión es deleitar a nuestros clientes con pizzas artesanales de alta
+                    calidad, preparadas con ingredientes frescos y locales. Nos esforzamos por ofrecer un servicio
+                    excepcional y crear un ambiente acogedor donde cada comida sea una experiencia memorable.</p>
+            </div>
+            <div class="vision">
+                <center>
+                    <h3>Nuestra Visión</h3>
+                </center>
+                <p>Nuestra visión es convertirnos en la pizzería preferida de Chillán, reconocida por nuestro compromiso
+                    con la excelencia culinaria y el servicio al cliente. Aspiramos a ser un lugar donde las familias y
+                    amigos se reúnan para disfrutar de momentos especiales, y a contribuir al bienestar de nuestra
+                    comunidad a través de prácticas sostenibles y apoyo a los productores locales.</p>
+            </div>
+        </div>
+    </section>
+
+                     <!-- Apartado de Opiniones de Clientes -->
+    <h2 class="section-title">Opiniones de Clientes</h2>
+
+    <section id="opiniones" class="customer-reviews">
+
+                     <!-- Opiniones de muestra -->
+        <div class="review">
+            <p class="review-text">"¡Las mejores pizzas que he probado! Totalmente recomendadas."</p>
+            <p class="review-author">- Juan Pérez</p>
+        </div>
+        <div class="review">
+            <p class="review-text">"Excelente atención y las pizzas son deliciosas."</p>
+            <p class="review-author">- María López</p>
+        </div>
+        <div class="review">
+            <p class="review-text">"Siempre pido mi pizza favorita aquí, nunca decepciona."</p>
+            <p class="review-author">- Carlos Fernández</p>
+        </div>
+
+        <!-- Formulario para agregar una nueva opinión -->
+        <form action="submit_review.php" method="post">
+            <input type="text" name="reviewer_name" placeholder="Tu Nombre" required>
+            <textarea name="review_text" placeholder="Tu Opinión" required></textarea>
+            <button type="submit">Enviar Opinión</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> Dirección: Avenida Italia 1234, Chillán, Chile </p>
+        <p> Número de Contacto: +56 9 8765 4321 </p>
+        <p> Correo de Contacto: contacto@pizzaschillan.cl</p>
+        <br>
+        <p>Auspiciadores</p>
+        <br>
+        <div class="logos-footer">
+            <img src="cocacola.jpg" alt="Coca Cola">
+            <img src="quesoLogo.jpg" alt="Queso Fundo Santa Rosa">
+            <img src="carne.jpg" alt="Carnes Chillán">
+            <img src="longanizas.jpg" alt="Longanizas Cordillera">
+            <img src="nancy.jpg" alt="Productos Secos Tía Nancy">
+            <img src="harina-jpg.jpg" alt="Polvos de Hornear Selecta">
+            <img src="molino.jpg" alt="Harina Molino Fuentes">
+            <img src="hortalizas.jpg" alt="Fundo de Hortalizas Chillán">
+        </div>
+        <p>&copy; 2024 Pizzas Especiales Chillán. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
