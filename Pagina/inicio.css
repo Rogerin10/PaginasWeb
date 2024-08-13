@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Encabezado {
+    background-color: rgb(0, 145, 55);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#areas {
+    text-align: center;
+    padding: 20px 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(107, 6, 6);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#logo,#nombrePizzeria {
+    padding: 1% 3%;
+    margin-bottom: 10px;
+    color: rgb(241, 1, 1);
+}
+
+#BarraNavegacion {
+    background-color: rgb(22, 102, 207);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.opcion {
+    padding: 1% 2%;
+    margin: 5px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(0, 110, 255);
+    background-size: 90% 90%;
+    background-position: center;
+}
+
+.image-container {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 80vh;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 26px;
+}
+
+.image-container img {
+    object-fit: cover;
+    /* La imagen se ajusta al contenedor */
+    width: 90%;
+    /* Ancho de la imagen, reducido un poco */
+    height: 90%;
+    /* Alto de la imagen, reducido un poco */
+    margin: 0 auto;
+    /* Centrar la imagen horizontalmente */
+    border-radius: 20px;
+}
+
+.text-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* fondo blanco con 50% de transparencia */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 20px;
+    /* Agrega un padding de 20px en todos los lados */
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info {
+    font-size: 20px;
+    color: #000000;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#Footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149161843.jpg");
+    padding: 3%;
+    color: white;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+
+#logofooter1,
+#logofooter2 {
+    border: 1px black solid;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+}
+
+.textofooter {
+    padding: 25px;
+    color: white;
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+.area {
+    width: 90%;
+    max-width: 300px;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+}
+
+.area img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,139 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.header {
+    background-color: #5ad30a;
+    color: #ca0d0d;
+    padding: 20px;
+    text-align: center;
+}
+
+.servicios-list li {
+    display: inline-block;
+    width: 25%; 
+    margin: 20px;
+    background-color: #c0d407; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    height: 300px; 
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+.servicios-list li:hover {
+    transform: scale(1.1);
+}
+.servicios-list li img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+.servicios-list li h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.servicios-list li p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+.servicios-list li{
+    width: 50%;
+    margin: 10px;
+}
+.servicios-list li img{
+    width: 100px;
+    height: 100px;
+}
+}
+#Footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149161843.jpg");
+    padding: 3%;
+    color: white;
+    justify-content: space-between;
+    border: 1px solid white;
+}
+#logofooter1, #logofooter2 {
+    border: 1px black solid;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+}
+.textofooter {
+    padding: 25px;
+    color: white;
+    flex: 1 1 100%;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: orange;
+}
+.area {
+    width: 90%;
+    max-width: 300px;
+    color: rgb(89, 211, 8);
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+}
+.area img {
+    width: 100%;
+    height: auto;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 500px;
+}
+.carousel-item {
+    width: 100%;
+    height: 500px;
+}
+#tr1{height: 500px;}
+#tr2{height: 500px;}
+#tr3{height: 500px;}
+@media (min-width: 768px) {
+    #historia, #Aquenosdedicamos {
+        flex: 1 1 45%;
+    }
+    #imagen {
+        flex: 1 1 45%;
+    }
+    #areas{
+        display: flexbox;
+    }
+    .area {
+        flex: 1 1 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #historia, #imagen, #Aquenosdedicamos {
+        flex: 1 1 30%;
+    }
+    #logofooter1, #logofooter2 {
+        flex: 1;
+        margin-bottom: 0;
+    }
+    .textofooter {
+        flex: 2;
+    }
+    #areas{
+        display: flexbox;
+    }
+    .area {
+        flex: 1 1 22%;
+    }
+}

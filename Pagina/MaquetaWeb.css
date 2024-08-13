@@ -1,0 +1,62 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#Cuerpo1 {
+  background-color: rgb(11, 11, 189);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin: 1% 3%;
+  padding-bottom: 10%;
+}
+header{
+  background-color: #230591;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+}
+.redes{
+  background-color: white;
+}
+nav{
+  bottom: auto;
+}
+.company-name{
+  font-size: 1.7em;
+  color: #fafafa;
+}
+main{
+  padding: 20px;
+}
+section{
+  margin-bottom: 20px;
+  padding: 10px;
+}
+aside{
+  display: block;
+}
+footer{
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149161843.jpg");
+  padding: 15PX;
+  text-align: center;
+}
+.text{
+  height: 1%;
+}
+.centrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 45%;
+  margin: 0 auto;
+}

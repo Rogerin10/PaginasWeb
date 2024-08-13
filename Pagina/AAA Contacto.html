@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css"> <!-- Unión de css -->
+    <link rel="stylesheet" href="stylere.css">
+    <!-- Conexión con CSS secundaria para tener ajustes similares a las demás secciones hechas -->
+</head>
+
+<body>
+    <!-- El logo arriba de la página y el nombre de la misma empresa -->
+    <div id="Encabezado">
+        <!-- En este div se crea el encabezado, en CSS se le especifica que el logo estará a la izquierda y el nombre a la derecha -->
+        <img src="Logo.png" alt="logo" width="6%" height="7%">
+        <p id="nombreEmpresa">Ingeniería en construcción BF</p>
+    </div>
+    <!-- Barra de navegación del header para orientar al usuario en las secciones de la página -->
+    <div id="BarraNavegacion">
+        <!-- La barra de navegación que se le mostrará al usuario para manejarse a través de las secciones de una página -->
+        <a href="AAA Inicio.html" class="opcion">Inicio</a> <!-- links referenciales a cada sección -->
+        
+        <a href="AAA Contacto.html" class="opcion">Contacto</a>
+    </div>
+    <!-- cuerpo de la página -->
+    <p></p>
+
+   
+        <body>
+            <!-- Contacto -->
+            <section id="contact" class="contact-form">
+              <h2 class="section-title">Contacto</h2>
+              <form action="submit_form.php" method="post">
+                  <input type="text" name="name" placeholder="Tu Nombre" required>
+                  <input type="email" name="email" placeholder="Tu Email" required>
+                  <textarea name="message" placeholder="Tu Mensaje" required></textarea>
+                  <button type="submit">Enviar</button>
+              </form>
+          </section>
+      </body>
+    </div>
+
+     <!-- Footer -->
+     <footer>
+        <p>&copy; 2024 Pizzas Especiales Chillán. Todos los derechos reservados.</p>
+    </footer>
+
+
+</body>
+
+</html>

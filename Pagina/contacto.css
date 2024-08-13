@@ -1,0 +1,40 @@
+body { /* cambia el color de la letra de todo el cuerpo a blanco y el tipo de letra a sans-serif, además de quitar todo márgen que este puesto de forma automática */
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+#Cuerpo1 { /* cambia el color del fondo a un azul oscuro, las letras a blanco, y utiliza flex para acomodar todo en esta sección en una líneas, además de establecer un márgen en
+    relación al fondo */
+    background-color: rgb(7, 7, 161);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% 3%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+    border-radius: 1%;
+}
+section { /* le da un padding de 20px y  */
+    padding: 20px;
+    display: flex;
+}
+.left, .right {
+    width: 50%;
+    padding: 20px;
+}
+footer {
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-negro-degradado-cubos_23-2149161843.jpg");
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.map-container {
+    flex: 1;
+    min-width: 300px;
+}
